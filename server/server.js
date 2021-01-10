@@ -1,6 +1,6 @@
 const http = require('http');
 const url = require('url');
-const sr = require('./sr.js')
+const sr = require('./sr.js');
 
 http.createServer(function (req, res) {
     const reqURL = url.parse(req.url, true);
